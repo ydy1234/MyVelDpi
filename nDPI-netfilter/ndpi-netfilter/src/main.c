@@ -27,7 +27,6 @@
 #include <linux/netfilter/x_tables.h>
 #include <linux/skbuff.h>
 #include <linux/ip.h>
-
 #if LINUX_VERSION_CODE >= KERNEL_VERSION(4, 4, 47) 
 #include <uapi/linux/pkt_cls.h> 
 #endif
