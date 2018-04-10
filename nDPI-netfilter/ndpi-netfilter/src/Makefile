@@ -157,6 +157,7 @@ xt_ndpi-y := main.o \
 		${NDPI_PRO}/xdmcp.o \
 		${NDPI_PRO}/yahoo.o \
 		${NDPI_PRO}/zattoo.o \
+		${NDPI_PRO}/amqp.o \
 		${NDPI_PRO}/zeromq.o
 
 all:	modules

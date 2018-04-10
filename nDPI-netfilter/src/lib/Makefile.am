@@ -169,7 +169,7 @@ libndpi_la_SOURCES = ndpi_content_match.c.inc \
 		     third_party/src/ahocorasick.c \
 		     third_party/src/node.c \
 		     third_party/src/sort.c
-
+             protocols/amqp.c \
 EXTRA_DIST = third_party/src/ndpi_patricia.c
 
 YAMLCFG = ndpi_network_list_std.yaml ndpi_network_list_tor.yaml
