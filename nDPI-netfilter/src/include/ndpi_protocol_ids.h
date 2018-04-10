@@ -263,6 +263,26 @@
 #define NDPI_SERVICE_HOTSPOT_SHIELD                     215
 #define NDPI_PROTOCOL_CSGO        			216
 #define NDPI_PROTOCOL_AMQP        			217
+#define NDPI_PROTOCOL_APPLE_PUSH            218
+#define NDPI_PROTOCOL_BJNP                  219
+#define NDPI_PROTOCOL_CHECKMK               220
+#define NDPI_PROTOCOL_DIAMETER	            221
+#define NDPI_PROTOCOL_FIX                   222
+#define NDPI_PROTOCOL_LISP                  223
+#define NDPI_PROTOCOL_TINC                  224
+#define NDPI_PROTOCOL_NINTENDO              225
+#define NDPI_PROTOCOL_SMPP                  226
+#define NDPI_PROTOCOL_SOMEIP                227
+#define NDPI_PROTOCOL_WHATSAPP              228
+#define NDPI_PROTOCOL_WHATSAPP_FILES              229
+#define NDPI_PROTOCOL_COAP                  230
+#define NDPI_PROTOCOL_DRDA                  231
+#define NDPI_PROTOCOL_GIT                   232
+#define NDPI_PROTOCOL_HANGOUT               234
+#define NDPI_PROTOCOL_HEP                   235
+#define NDPI_PROTOCOL_MQTT                  236
+#define NDPI_PROTOCOL_RX                    237
+#define NDPI_PROTOCOL_UBNTAC2               238
 
 /* UPDATE UPDATE UPDATE UPDATE UPDATE UPDATE UPDATE UPDATE UPDATE */
 #define NDPI_LAST_IMPLEMENTED_PROTOCOL			NDPI_PROTOCOL_CSGO

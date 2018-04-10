@@ -166,10 +166,31 @@ libndpi_la_SOURCES = ndpi_content_match.c.inc \
 		     third_party/include/ahocorasick.h \
 		     third_party/include/node.h \
 		     third_party/include/sort.h \
+			 third_party/include/libcache.h \
 		     third_party/src/ahocorasick.c \
 		     third_party/src/node.c \
-		     third_party/src/sort.c
+		     third_party/src/sort.c \
+ 			 third_party/src/libcache.c \
              protocols/amqp.c \
+			 protocols/bjnp.c \
+			 protocols/checkmk.c \
+			 protocols/diameter.c \
+			 protocols/fix.c \
+			 protocols/lisp.c \
+			 protocols/nintendo.c \
+			 protocols/smpp.c \
+			 protocols/someip.c \
+			 protocols/tinc.c \
+			 protocols/whatsapp.c \
+			 protocols/coap.c \
+			 protocols/drda.c \
+			 protocols/git.c \
+			 protocols/hangout.c \
+			 protocols/hep.c \
+			 protocols/mqtt.c \
+			 protocols/rx.c \
+			 protocols/ubntac2.c \
+			 protocols/apple_push.c 
 EXTRA_DIST = third_party/src/ndpi_patricia.c
 
 YAMLCFG = ndpi_network_list_std.yaml ndpi_network_list_tor.yaml

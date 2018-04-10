@@ -19,6 +19,7 @@ obj-m := xt_ndpi.o
 xt_ndpi-y := main.o \
 		${NDPI_PRO}/../third_party/src/node.o \
 		${NDPI_PRO}/../third_party/src/ahocorasick.o \
+		${NDPI_PRO}/../third_party/src/libcache.o \
 		${NDPI_SRC}/lib/ndpi_main.o \
 		${NDPI_PRO}/afp.o \
 		${NDPI_PRO}/aimini.o \
@@ -158,6 +159,25 @@ xt_ndpi-y := main.o \
 		${NDPI_PRO}/yahoo.o \
 		${NDPI_PRO}/zattoo.o \
 		${NDPI_PRO}/amqp.o \
+		${NDPI_PRO}/apple_push.o \
+		${NDPI_PRO}/bjnp.o \
+		${NDPI_PRO}/checkmk.o \
+		${NDPI_PRO}/diameter.o \
+		${NDPI_PRO}/fix.o \
+		${NDPI_PRO}/lisp.o \
+		${NDPI_PRO}/nintendo.o \
+		${NDPI_PRO}/smpp.o \
+		${NDPI_PRO}/someip.o \
+		${NDPI_PRO}/tinc.o \
+		${NDPI_PRO}/whatsapp.o \
+		${NDPI_PRO}/coap.o \
+		${NDPI_PRO}/drda.o \
+		${NDPI_PRO}/git.o \
+		${NDPI_PRO}/hangout.o \
+		${NDPI_PRO}/hep.o \
+		${NDPI_PRO}/mqtt.o \
+		${NDPI_PRO}/rx.o \
+		${NDPI_PRO}/ubntac2.o \
 		${NDPI_PRO}/zeromq.o
 
 all:	modules
