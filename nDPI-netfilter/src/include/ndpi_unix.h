@@ -45,6 +45,10 @@
 #include <netinet/udp.h>
 #else
 #include <linux/ip.h>
+#include <linux/version.h>
+#if LINUX_VERSION_CODE >= KERNEL_VERSION(4, 4, 47) 
+#include <uapi/linux/pkt_cls.h> 
+#endif
 #include <linux/tcp.h>
 #include <linux/udp.h>
 #endif
